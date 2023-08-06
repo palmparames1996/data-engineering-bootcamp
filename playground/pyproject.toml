@@ -1,15 +1,16 @@
 [tool.poetry]
-name = "data-engineering-lifecycle"
+name = "playground"
 version = "0.1.0"
 description = ""
-authors = ["zkan <zkan.cs@gmail.com>"]
+authors = ["palmparames1996 <80811778+palmparames1996@users.noreply.github.com>"]
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+django = "^4.2.4"
 requests = "^2.31.0"
 
-[tool.poetry.dev-dependencies]
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
